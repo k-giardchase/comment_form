@@ -5,7 +5,7 @@
         print_r($form);
         print '</pre>';
 
-        // if($form_id == 'comment_node_page_form') {
-        //     $form['subject']
-        // }
+        if($form_id == 'comment_node_page_form') {
+            $form['subject']['#access'] = 0;
+        }
     }
