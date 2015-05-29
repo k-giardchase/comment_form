@@ -1,0 +1,5 @@
+name = Comment Form Module
+description = Custom contact form module that removes the subject line in the comment form
+package = Custom
+core = 7.x
+files[] = comment_form.module
